@@ -1,0 +1,63 @@
+<style type="text/css">
+
+
+
+li { 
+	width:auto; /* define a largura do menu */
+	list-style:none;  /* tirar pontinho*/
+}
+
+a { 
+	padding:0 50px; /* criar um espaçamento interno em um um box entre seus 4 lados */
+	line-height:45px; /* especifica a altura da linha */
+	float:left; 
+	text-decoration:none; /* tirar linha do link*/
+}
+
+
+</style>
+
+
+
+
+
+<fieldset>
+<ul class="menu"> <!-- Esse é o 1 nivel ou o nivel principal -->
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="#">RESTAURANTE</a></li>
+    <li><a href="Prato.html">PRATOS</a></li>
+</ul>
+</fieldset>
+
+<h1> 
+Cadastro de pratos                                                                                                                                  
+</h1>
+
+<fieldset>
+<form>
+<legend>Dados:</legend>
+
+Restaurante:<br><br>
+<select name="restaurantes">
+<option value="ze"selected>restaurante do ZE</option>
+<option value="joao" >restaurante do JOAO</option>
+<option value="didi">restaurante do DIDI</option>
+<option value="edimar">restaurante do EDIMAR</option>
+</select>
+<br><br>
+
+Prato: <br><br>
+<input type="text" name="nome do prato">
+<br><br>
+
+Preço: <br><br>
+<input type="text" name="preco do prato">
+<br><br>
+
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+</form>
+
+
+</fieldset>
